@@ -1,0 +1,57 @@
+.shop {
+    margin-left: 3%;
+}
+
+.products-container {
+    width: 100%;
+}
+
+.product-container {
+    width: 14em;
+    padding: 1%;
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.addProductForm {
+  width: 38%;
+  box-shadow: 0 3px 11px -5px rgba(0, 0, 0, 0.6);
+  border-radius: 0.3vw;
+  background-color: #ffffff;
+  border: 0.1vw solid transparent;
+  display: block;
+  margin: auto;
+  padding: 2%;
+  margin-top: 1%;
+  font-size: 20px;
+}
+
+.addProductForm div {
+  margin-bottom: 2%;
+}
+
+.addProductForm input {
+  float: right;
+  width: 66%;
+}
+
+.addProductForm input[type=submit] {
+  float: none;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 20%;
+  padding: 1%;
+  font-size: 18px;
+}
+
+.react-datepicker-wrapper {
+  display: grid !important;
+  margin-top: -3.2%;
+}
+
+.react-datepicker-popper {
+  left: 24.2% !important;
+}

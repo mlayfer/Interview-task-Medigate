@@ -1,0 +1,36 @@
+.nav-bar {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+    background-color: #c0c0c0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.nav-bar-link {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar-link:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.nav-bar-link.active {
+    color: white;
+}
+
+.nav-link-main {
+  background-color: #4CAF50;
+}
+
+.nav-link-sub {
+  background-color: blue;
+}
+
+.nav-bar img{
+  height: 50px;
+}

@@ -1,0 +1,17 @@
+.shop {
+  margin-left: 3%;
+  padding-top: 5%;
+}
+
+.products-container {
+  width: 100%;
+}
+
+.product-container {
+  width: 14em;
+  padding: 1%;
+  height: 330px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
